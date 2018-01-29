@@ -1,0 +1,2 @@
+This is the sample file for uploading another directory for 
+Hackerrank 10 days of Javascript code challenge.
