@@ -1,0 +1,35 @@
+Data Types
+JavaScript's Data Types
+The latest ECMAScript standard defines seven data types:
+
+A primitive value or data type is data that is not an object and has no methods. All primitives are immutable, meaning they cannot be changed. There are six primitive types:
+Number
+String
+Boolean
+Symbol
+Null
+Undefined
+The seventh data type is Object.
+
+
+Number Data Type
+According to the ECMAScript standard, all numbers are double-precision 64-bit binary format IEEE 754-2008, meaning there is no specific type for integers.
+
+Maximum Value for a Number
+The MAX_VALUE property has a value of approximately . Values larger than Number.MAX_VALUE are represented as Infinity.
+
+Minimum Value for a Number
+The MIN_VALUE property is the smallest positive value of the Number type closest to , not the most negative number, that JavaScript can represent. MIN_VALUE has a value of approximately . Values smaller than Number.MIN_VALUE ("underflow values") are converted to .
+
+Symbolic Numbers
+There are three symbolic number values:
+
+Infinity: This is any number divided by , or an attempt to multiply Number.MAX_VALUE by an integer .
+-Infinity: This is any number divided by , or an attempt to multiply Number.MAX_VALUE by an integer .
+NaN: This stands for "Not-a-Number" and denotes an unrepresentable value (i.e., ).
+The isSafeInteger Method
+A safe integer is an integer that:
+
+Can be exactly represented as an IEEE-754 double precision number, and
+Whose IEEE-754 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation.
+The Number.isSafeInteger() method determines whether the provided value is a number that is a safe integer.
