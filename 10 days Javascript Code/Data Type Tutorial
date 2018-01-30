@@ -33,3 +33,11 @@ A safe integer is an integer that:
 Can be exactly represented as an IEEE-754 double precision number, and
 Whose IEEE-754 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation.
 The Number.isSafeInteger() method determines whether the provided value is a number that is a safe integer.
+
+
+String Data Type
+A string value is a chain of zero or more Unicode characters (i.e., letters, digits, and punctuation marks) 
+that we use to represent text. We include string literals in our scripts by enclosing them in single (') 
+or double (") quotation marks. Double quotation marks can be contained in strings surrounded by single quotation 
+marks (e.g., '"' evaluates to "), and single quotation marks can be contained in strings surrounded by double 
+quotation marks (e.g., "'" evaluates to '). 
